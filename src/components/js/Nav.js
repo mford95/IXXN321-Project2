@@ -4,10 +4,12 @@ import {Link} from "react-router-dom";
 
 export default function Nav() {
     return (
-        <div className="main-nav">
-            <Link to="/home" className = "nav-link">Home</Link>
-            <Link to="/gallery" className = "nav-link">Gallery</Link>
-            
+        <div className="nav-container">
+            <nav>
+            <Link to="/App" className = "logo">Logo</Link>
+            <Link to="/works" className = "nav-link">Works</Link>
+            <Link to="/about" className = "nav-link">About</Link>
+            </nav>
         </div>
     )
 }

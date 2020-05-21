@@ -3,9 +3,10 @@ import logo from './logo.svg';
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
 import './App.css';
-import Home from "./pages/js/home";
-import gallery from "./pages/js/gallery";
+
+import about from "./pages/js/about";
 import Nav from "./components/js/Nav";
+import works from './pages/js/works';
 
 
 
@@ -15,12 +16,10 @@ function App() {
     <div className="App">
       <Router>
         <Nav />
-        <Route path="/home" component={Home} />
-        <Route path="/gallery" component={gallery} />
-     
-        
-
+        <Route path="/works" component={works} />
+        <Route path="/about" component={about} />
      </Router>
+     
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function gallery() {
+export default function works() {
     return (
         <div>
             
