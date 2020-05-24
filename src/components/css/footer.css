@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    clear: both;
+  }
+.socialContainer{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: auto;
+    margin-left: 3%;
+    
+}
+.footer img{
+    width: 5%;
+    margin-bottom: 2%;
+}

@@ -1,3 +1,10 @@
+
+.pageContainer{
+    background-color:  #0B0B1E;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .container{
     display: -webkit-flex;
     display: flex;
@@ -5,11 +12,10 @@
     flex-direction: row;
     -webkit-align-items: center;
     align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    
-    
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
 
+  
 }
 .leftSide{
     display: -webkit-flex;
@@ -20,6 +26,9 @@
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
+    
+   
+    
     
     
   
@@ -33,20 +42,23 @@
     align-items: right;
     -webkit-justify-content: right;
     justify-content: right;
+    
 }
    
-.works-thumb:hover , 
+.works-thumb:hover ,
 .works-thumb:focus  {
       -webkit-filter: none;
       filter: none;
-     
-
-    
-}
+     }
+.works-link:hover .overlay {
+        opacity: 1;
+        
+      }
 .leftSide img{
+    display: block;
     height: auto;
     width: 100%;
-    margin-bottom: 100px;
+    margin-top: 20%;
     -webkit-filter: grayscale(100%)
     contrast(120%);
     filter: grayscale(100%) 
@@ -57,9 +69,11 @@
 
 }
 .rightSide img{
+    display: block;
     height: auto;
     width: 100%;
-    margin-bottom: 100px;
+    
+    margin-top: 20%;
     -webkit-filter: grayscale(100%)
     contrast(120%); 
     filter: grayscale(100%)
@@ -70,16 +84,29 @@
 
 }
 .intro{
-    margin-bottom: 50px;
+    margin-top: 20%;
     margin-right: auto;
-    margin-left: 50px;
     color: white;
-    margin-top: 100px;
+   
     
 }
 .works-link{
    display: inline-block;
    width: 500px;
-   margin-right: 50px;
-   margin-left: 50px;
+   margin-right: auto;
+   margin-left: auto;
+   position: relative;
 }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    transition: .5s ease;
+    opacity:0;
+    color:white;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    font-size: 50px;
+    padding: 20px;
+    text-align: left;
+  }
