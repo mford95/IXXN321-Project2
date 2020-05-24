@@ -29,11 +29,11 @@ export default function works() {
                 </div>
                 <div className="rightSide">
                     <Link to="/about" className = "works-link">
-                        <img class="works-thumb" src={img3} alt='Landscape' ></img>   
-                        <div class="overlay">Landscape</div> 
+                        <img class="works-thumb" src={img3} alt='Urban' ></img>   
+                        <div class="overlay">Urban</div> 
                     </Link>
                     <Link to="/about" className = "works-link">
-                        <img class="works-thumb" src={img4} alt='Landscape' ></img>  
+                        <img class="works-thumb" src={img4} alt='Industrial' ></img>  
                         <div class="overlay">Industrial</div> 
                     </Link>
                 </div>
