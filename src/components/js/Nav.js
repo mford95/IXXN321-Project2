@@ -6,7 +6,7 @@ export default function Nav() {
     return (
         <div className="nav-container">
             <nav>
-            <Link to="/App" className = "logo">Logo</Link>
+            <Link to="/works" className = "logo">Logo</Link>
             <Link to="/works" className = "nav-link">Works</Link>
             <Link to="/about" className = "nav-link">About</Link>
             </nav>
