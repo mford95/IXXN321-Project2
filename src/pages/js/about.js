@@ -11,7 +11,7 @@ export default function about() {
                 </div>
                 <div className='aboutBio'>
                     <h3>About me</h3>
-                    <p> some text about what i do and stuff</p>
+                    <p> I am a third year Interactive design student. I have created this website to showcase a little hobby of mine in 35mm film photography.</p>
                 </div>
             </div>
             
