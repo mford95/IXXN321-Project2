@@ -1,0 +1,24 @@
+.aboutContainer{
+display: flex;
+flex-direction: row;
+width: 90vw;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+margin-bottom: auto;
+justify-content: space-evenly;
+}
+.aboutImg{
+
+}
+.aboutImg img{
+width: 40vw;
+}
+.aboutBio{
+color: white;
+flex-direction: column;
+padding: 10%;
+}
+.aboutBio h3{
+color: white;
+}

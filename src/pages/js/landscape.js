@@ -5,15 +5,13 @@ import Footer from '../../components/js/Footer.js';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
-import img1 from "../../images/Gallery/gallery1.jpg";
-import img2 from "../../images/Gallery/gallery2.jpg";
-import img3 from "../../images/Gallery/gallery3.jpg";
-import img4 from "../../images/Gallery/gallery4.jpg";
-import img5 from "../../images/Gallery/gallery5.jpg";
-import img6 from "../../images/Gallery/gallery6.jpg";
-import img7 from "../../images/Gallery/gallery7.jpg";
-import img8 from "../../images/Gallery/gallery8.jpg";
-import img9 from "../../images/Gallery/gallery9.jpg";
+import img1 from "../../images/Gallery/landscape1.jpg";
+import img2 from "../../images/Gallery/landscape2.jpg";
+import img3 from "../../images/Gallery/landscape3.jpg";
+import img4 from "../../images/Gallery/landscape4.jpg";
+import img5 from "../../images/Gallery/landscape5.jpg";
+import img6 from "../../images/Gallery/landscape6.jpg";
+
 
 const slider = (
     <AwesomeSlider>
@@ -29,12 +27,12 @@ const slider = (
     </AwesomeSlider>
   );
 
-export default function collection() {
+export default function landscape() {
     return (
         <div className="pageContainer">
             
             <div className="sliderContainer">
-            <h2> Experimental Film</h2>
+            <h2> Landscape Film</h2>
                 <AwesomeSlider>
                     <div><img src={img1}  ></img></div>
                     <div><img src={img2}  ></img></div>
@@ -42,9 +40,6 @@ export default function collection() {
                     <div><img src={img4}  ></img></div>
                     <div><img src={img5}  ></img></div>
                     <div><img src={img6}  ></img></div>
-                    <div><img src={img7}  ></img></div>
-                    <div><img src={img8}  ></img></div>
-                    <div><img src={img9}  ></img></div>
                 </AwesomeSlider>
             
              </div>

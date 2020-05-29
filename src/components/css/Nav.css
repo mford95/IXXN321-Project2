@@ -3,7 +3,8 @@ display: flex;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
-clear: both;
+background-color: #0B0B1E;
+
 
 }
 
@@ -41,3 +42,12 @@ text-decoration: none;
 color: white;
 margin-left: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+    nav{
+        width: 100vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+  }

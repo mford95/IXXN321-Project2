@@ -18,23 +18,23 @@ export default function works() {
                     <p>Photographic collections, each exploring different</p>
                     <p> mediums of film and location.</p>
                 </div>
-                        <Link to="/collection" className = "works-link">
+                        <Link to="/nature" className = "works-link">
                             <img class="works-thumb" src={img1} alt='Nature' ></img> 
                             <div class="overlay">Nature</div>
                         </Link>
-                        <Link to="/collection" className = "works-link">
+                        <Link to="/landscape" className = "works-link">
                             <img class="works-thumb" src={img2} alt='Landscape' ></img>  
                             <div class="overlay">Landscape</div> 
                         </Link>
                 </div>
                 <div className="rightSide">
-                    <Link to="/workTarget" className = "works-link">
+                    <Link to="/urban" className = "works-link">
                         <img class="works-thumb" src={img3} alt='Urban' ></img>   
                         <div class="overlay">Urban</div> 
                     </Link>
-                    <Link to="/workTarget" className = "works-link">
-                        <img class="works-thumb" src={img4} alt='Industrial' ></img>  
-                        <div class="overlay">Industrial</div> 
+                    <Link to="/collection" className = "works-link">
+                        <img class="works-thumb" src={img4} alt='Experimental' ></img>  
+                        <div class="overlay">Experimental</div> 
                     </Link>
                 </div>
             </div>

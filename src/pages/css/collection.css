@@ -9,6 +9,19 @@
     height: auto;
     width: 65vw;
 }
-.pageContainer{
-    background-color: #0B0B1E;
+h2{
+    color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .sliderContainer{
+    margin-top: 20%;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .sliderContainer img{
+        height: auto;
+        width: 65vw;
+    }
+  }
