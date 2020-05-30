@@ -22,3 +22,14 @@ padding: 10%;
 .aboutBio h3{
 color: white;
 }
+@media only screen and (max-width: 600px) {
+    .aboutContainer{
+        flex-direction: column;
+    }
+    .aboutImg{
+        width: 40vw;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+  }
