@@ -11,7 +11,7 @@ background-color: #0B0B1E;
 nav{
 border-bottom: 1px solid white; 
 position: fixed;
-width: 90%;
+width: 90vw;
 padding: 10px 0;
 top: 0;
 z-index: 1;

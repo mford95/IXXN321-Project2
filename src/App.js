@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <Nav />
+        <Route exact path='/' component={works} />
         <Route path="/works" component={works} />
         <Route path="/about" component={about} />
         <Route path="/collection" component={collection} />

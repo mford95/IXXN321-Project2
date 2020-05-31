@@ -14,7 +14,7 @@ export default function works() {
             <div className= "container">
                 <div className="leftSide">
                     <div className="intro">
-                    <h2>Works</h2>
+                    <h1>Works</h1>
                     <p>Photographic collections, each exploring different</p>
                     <p> mediums of film and location.</p>
                 </div>

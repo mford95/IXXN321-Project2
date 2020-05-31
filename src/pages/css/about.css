@@ -27,9 +27,12 @@ color: white;
         flex-direction: column;
     }
     .aboutImg{
-        width: 40vw;
+       
         margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
         }
+        .aboutImg img{
+            width: 60vw;
+            }
   }
